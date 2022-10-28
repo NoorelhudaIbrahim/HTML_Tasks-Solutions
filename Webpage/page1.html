@@ -11,7 +11,6 @@
 </head>
 <style>
 
-   
 
     .container{ width: 50%;
                 margin: 0 auto 0 auto;
@@ -36,19 +35,35 @@
             padding-left:50%;
             color: antiquewhite;}
 
-    .list{ background-image:url(https://cdn.shopify.com/s/files/1/0062/7892/products/5012_grande.jpg?v=1571231492);
+    .list{  margin-left:3%;
+            margin-right:3%;
+            padding-left:10%;
+            padding-right:0%;
+            background-image:url(https://cdn.shopify.com/s/files/1/0062/7892/products/5012_grande.jpg?v=1571231492);
             color: brown;
             display: grid; 
-            grid-template-columns:auto 1fr auto;
-            padding-left:10%;
-            padding-right:0%;}
+            grid-template-columns:auto 1fr ;
+          }
+    .list li{margin-left:0%;
+            margin-right:0%;
+            padding-left:1px;
+            padding-right:1px;}
 
 
     .list .fa-square{ 
             display: -ms-inline-grid; 
-            grid-template-columns:auto 1fr auto;
+            grid-template-columns:auto 1fr ;
             padding-left:10%;
             padding-right:0%;}
+
+    .b1{    display: inline; 
+            padding: 70% ;}
+
+    .b1 .share{ width: 120px;
+            background-color: rgb(193, 117, 117);
+            color: white;
+            border: 3px solid brown;
+            font-size:small;}
 
 </style>
 
@@ -115,13 +130,15 @@
     </div>
 
     <hr>
-    <div style="display: inline; padding: 70% ;">
-        <button style="width: 150px; ;background-color: rgb(193, 117, 117);color: white;border: 3px solid brown;font-size:small;">SHARE RECIPE</button>
-        </div>
+    <FORM>
+    <div class="b1" >
+        <input type="submit" class="share" value="SHARE RECIPE">
+    </div>
+</FORM>
     <img style="width: 90px;border-radius:100%;padding: 10px;" src="https://loveincorporated.blob.core.windows.net/contentimages/main/nigellalawson.jpg">
-    <p style="color:darkred;text-decoration: underline;padding: 10px;"><b>Nigella Lawson</b></p>
+    <p style="color:darkred;text-decoration: underline;padding:4px;"><b>Nigella Lawson</b></p>
 
-    <div style="color:brown; font-style: italic;padding: 10px;;">
+    <div style="color:brown; font-style: italic;padding: 5px;">
         
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quod mollitia veritatis doloribus culpa porro.
         Maiores repudiandae cumque voluptates assumenda numquam nesciunt doloribus ab cum obcaecati ducimus! Ex esse autem
